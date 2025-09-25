@@ -4,7 +4,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js-15.5.4-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 [![Supabase](https://img.shields.io/badge/Supabase-Ready-green)](https://supabase.com/)
-[![License](https://img.shields.io/badge/License-Recherche-orange)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 Application d'apprentissage adaptatif pour l'enseignement primaire (Cycle 2) développée avec Next.js 14+, TypeScript, et Supabase.
 
