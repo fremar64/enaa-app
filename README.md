@@ -1,5 +1,11 @@
 # ENAA - Environnement Numérique d'Apprentissage Adaptatif
 
+[![GitHub](https://img.shields.io/badge/GitHub-fremar64%2Fenaa--app-blue)](https://github.com/fremar64/enaa-app)
+[![Next.js](https://img.shields.io/badge/Next.js-15.5.4-black)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-Ready-green)](https://supabase.com/)
+[![License](https://img.shields.io/badge/License-Recherche-orange)](LICENSE)
+
 Application d'apprentissage adaptatif pour l'enseignement primaire (Cycle 2) développée avec Next.js 14+, TypeScript, et Supabase.
 
 ## 🚀 Technologies utilisées
@@ -126,9 +132,27 @@ L'application utilise un système d'IA adaptatif qui :
 
 ## 🚀 Déploiement
 
+### Déploiement automatique sur Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffremar64%2Fenaa-app&env=NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY,SUPABASE_SERVICE_ROLE_KEY,GEMMA_API_KEY,OPENAI_API_KEY,NEXTAUTH_SECRET&envDescription=Variables%20d'environnement%20requises%20pour%20ENAA&project-name=enaa-app&repository-name=enaa-app)
+
+### Configuration manuelle
+
+1. **Fork ce repository**
+2. **Connecter à Vercel** depuis votre dashboard
+3. **Configurer les variables d'environnement** :
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY` 
+   - `SUPABASE_SERVICE_ROLE_KEY`
+   - `GEMMA_API_KEY`
+   - `OPENAI_API_KEY`
+   - `NEXTAUTH_SECRET`
+
+### Infrastructure
+
 - **Production:** Vercel (recommandé)
 - **Base de données:** Supabase
-- **Monitoring:** Sentry
+- **Monitoring:** Vercel Analytics
 - **CDN:** Vercel Edge Network
 
 ## 📝 Licence
